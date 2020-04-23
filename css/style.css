@@ -403,6 +403,11 @@ body.offcanvas {
   background-repeat: no-repeat;
   position: relative; }
 
+#profileImg {
+  width: 150px;
+  border-radius: 50%;
+}
+
 .colorlib-heading {
   font-size: 18px;
   margin-bottom: 4em;
@@ -771,6 +776,10 @@ body.offcanvas {
     position: absolute;
     top: -22px;
     right: 0; }
+  .progress-bar span.louta {
+      position: absolute;
+      top: 12px;
+      right: 0; }
   .progress-bar.color-1 {
     background: #2c98f0; }
     .progress-bar.color-1:after {

@@ -308,3 +308,11 @@
 
 
 }());
+
+function sendEmail() {
+	var email = "sakhrimedamine@gmail.com";
+	var subject = document.getElementById('subject').value
+	var body = document.getElementById('message').value
+	
+	window.open("mailto:"+email+"?subject="+subject+"&body="+body);
+}
